@@ -1,13 +1,13 @@
 
 public class Dado {
-	private int valor;
+	private Integer valor;
 	
 	public Dado(){
 		;
 	}
-	public int tirarDado(){
+	public Integer tirarDado(){
 		//Este método dará un valor aleatorio al dado entre 1 y 6.
-		this.valor=(int)((Math.random()*6)+1);
+		this.valor=(Integer)((Math.random()*6)+1);
 		return this.valor;
 	}
 	
